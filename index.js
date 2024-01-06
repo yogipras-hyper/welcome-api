@@ -1,7 +1,7 @@
 import express from 'express'
 const app = express()
 const port = process.env.PORT || 3000 || 8080
-import Canvas, { createCanvas, loadImage } from 'canvas';
+import Canvas, { createCanvas, loadImage } from '@napi-rs/canvas';
 import { dirname } from 'path';
 import { fileURLToPath } from 'url';
 
