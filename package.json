@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "canvas": "^2.11.2",
+    "@napi-rs/canvas": "latest",
     "express": "^4.18.2",
     "yg-canvas": "^1.1.1"
   }
